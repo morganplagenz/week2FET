@@ -1,0 +1,109 @@
+/* Global Stylings */
+
+p, li, td, th, a, h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #222222;
+    font-size: 35px;
+}
+
+h2, h3 {
+    color: #766161;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #222222;
+    text-decoration: underline;
+}
+
+form {
+    padding-bottom: 10px;
+}
+
+/* Classes used within multiple pages */
+
+.main-picture-text{
+    display: flex;
+    justify-content: center;
+    background-color: #e1f1dd;
+    padding: 20px;
+
+}
+
+.order-form {
+    display: flex;
+    justify-content: center;
+}
+
+.centered-header{
+    display:flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.other-products {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.section-color{
+    background-color: #e1f1dd;
+    padding: 10px;
+}
+
+
+.flavor-list{
+    padding: 20px;
+}
+
+
+  /* contactus sylings */
+
+.table {
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+
+.table th {
+    background-color: #766161;
+    font-size: 18px;
+    color:floralwhite;
+    padding: 5px;
+}
+
+.table td {
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+#position-column {
+    width: 175px;
+}
+
+#staff-name {
+    width: 220px;
+}
+
+#staff-email {
+    width: 300px;
+}
+
+ /* id unique to homepage/index */
+
+#index-products{
+    float:right;
+    padding-left: 20px;
+}
